@@ -92,7 +92,188 @@
                     <span class="arrow">›</span>
                 </a>
             </div>
+
+            <div class="product-section">
+                <div class="product-carousel" id="product-carousel">
+                    <!-- Card 1 -->
+                    <div class="p-card">
+                        <div class="p-card-image bg-blue">
+                            <img src="blue_vial.png" alt="Retatrutide" class="p-vial-img">
+                        </div>
+                        <div class="p-card-info">
+                            <span class="stock-badge in-stock">
+                                <span class="badge-dot"></span> In stock
+                            </span>
+                            <h3 class="p-title">Retatrutide</h3>
+                            <p class="p-price">$90.00</p>
+                            <div class="p-actions">
+                                <button class="btn-buy">Buy now</button>
+                                <button class="btn-cart">Add to cart</button>
+                            </div>
+                            <a href="#" class="p-research-link">Research Use Only</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 2 -->
+                    <div class="p-card">
+                        <div class="p-card-image bg-lightblue">
+                            <img src="blue_vial.png" alt="BPC-157 10mg" class="p-vial-img">
+                        </div>
+                        <div class="p-card-info">
+                            <span class="stock-badge in-stock">
+                                <span class="badge-dot"></span> In stock
+                            </span>
+                            <h3 class="p-title">BPC-157 10mg</h3>
+                            <p class="p-price">$59.00</p>
+                            <div class="p-actions">
+                                <button class="btn-buy">Buy now</button>
+                                <button class="btn-cart">Add to cart</button>
+                            </div>
+                            <a href="#" class="p-research-link">Research Use Only</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 3 -->
+                    <div class="p-card">
+                        <div class="p-card-image bg-blue">
+                            <img src="blue_vial.png" alt="GHK-Cu" class="p-vial-img">
+                        </div>
+                        <div class="p-card-info">
+                            <span class="stock-badge in-stock">
+                                <span class="badge-dot"></span> In stock
+                            </span>
+                            <h3 class="p-title">GHK-Cu</h3>
+                            <p class="p-price">$49.00</p>
+                            <div class="p-actions">
+                                <button class="btn-buy">Buy now</button>
+                                <button class="btn-cart">Add to cart</button>
+                            </div>
+                            <a href="#" class="p-research-link">Research Use Only</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 4 -->
+                    <div class="p-card">
+                        <div class="p-card-image bg-gray">
+                            <img src="gray_vial.png" alt="Tirzepatide 20mg" class="p-vial-img">
+                        </div>
+                        <div class="p-card-info">
+                            <span class="stock-badge out-of-stock">
+                                <span class="badge-dot"></span> Out of stock
+                            </span>
+                            <h3 class="p-title">Tirzepatide 20mg</h3>
+                            <p class="p-price">$199.00</p>
+                            <div class="p-actions">
+                                <button class="btn-outofstock" disabled>Out of stock</button>
+                            </div>
+                            <a href="#" class="p-research-link">Research Use Only</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 5 -->
+                    <div class="p-card">
+                        <div class="p-card-image bg-lightblue">
+                            <img src="blue_vial.png" alt="Semaglutide 10mg" class="p-vial-img">
+                        </div>
+                        <div class="p-card-info">
+                            <span class="stock-badge in-stock">
+                                <span class="badge-dot"></span> In stock
+                            </span>
+                            <h3 class="p-title">Semaglutide 10mg</h3>
+                            <p class="p-price">$129.00</p>
+                            <div class="p-actions">
+                                <button class="btn-buy">Buy now</button>
+                                <button class="btn-cart">Add to cart</button>
+                            </div>
+                            <a href="#" class="p-research-link">Research Use Only</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 6 (Duplicate to ensure scroll) -->
+                    <div class="p-card">
+                        <div class="p-card-image bg-blue">
+                            <img src="blue_vial.png" alt="Liraglutide 5mg" class="p-vial-img">
+                        </div>
+                        <div class="p-card-info">
+                            <span class="stock-badge in-stock">
+                                <span class="badge-dot"></span> In stock
+                            </span>
+                            <h3 class="p-title">Liraglutide 5mg</h3>
+                            <p class="p-price">$79.00</p>
+                            <div class="p-actions">
+                                <button class="btn-buy">Buy now</button>
+                                <button class="btn-cart">Add to cart</button>
+                            </div>
+                            <a href="#" class="p-research-link">Research Use Only</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Carousel controls -->
+                <div class="carousel-controls">
+                    <div class="scrollbar-container">
+                        <div class="scrollbar-track" id="scrollbar-track">
+                            <div class="scrollbar-thumb" id="scrollbar-thumb"></div>
+                        </div>
+                    </div>
+                    <div class="arrow-buttons">
+                        <button class="arrow-btn" id="prev-btn" aria-label="Previous">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+                        </button>
+                        <button class="arrow-btn" id="next-btn" aria-label="Next">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="chat-btn" aria-label="Chat">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/>
+                </svg>
+            </button>
         </main>
     </div>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const carousel = document.getElementById('product-carousel');
+            const prevBtn = document.getElementById('prev-btn');
+            const nextBtn = document.getElementById('next-btn');
+            const scrollbarThumb = document.getElementById('scrollbar-thumb');
+            
+            // Scroll distance
+            const scrollAmount = 300;
+            
+            prevBtn.addEventListener('click', () => {
+                carousel.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+            });
+            
+            nextBtn.addEventListener('click', () => {
+                carousel.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+            });
+            
+            // Update scrollbar thumb position
+            carousel.addEventListener('scroll', () => {
+                const maxScrollLeft = carousel.scrollWidth - carousel.clientWidth;
+                if (maxScrollLeft <= 0) {
+                    scrollbarThumb.style.width = '100%';
+                    scrollbarThumb.style.left = '0%';
+                    return;
+                }
+                
+                const scrollPercent = carousel.scrollLeft / maxScrollLeft;
+                const visibleRatio = carousel.clientWidth / carousel.scrollWidth;
+                const thumbWidthPercent = Math.max(20, visibleRatio * 100);
+                
+                scrollbarThumb.style.width = `${thumbWidthPercent}%`;
+                const maxThumbLeft = 100 - thumbWidthPercent;
+                scrollbarThumb.style.left = `${scrollPercent * maxThumbLeft}%`;
+            });
+            
+            // Init scrollbar
+            carousel.dispatchEvent(new Event('scroll'));
+        });
+    </script>
 </body>
 </html>
